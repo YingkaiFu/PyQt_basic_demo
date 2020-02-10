@@ -1,0 +1,9 @@
+LOCAL:
+  DOWNLOAD_DIR: "download" #从开发板下载的文件会在此目录
+  SCREEN_DIR: "capture" # 使用软件“录屏”功能保存的视频会在本机该目录。
+REMOTE:
+  DISPLAY: "0" # 显示重定向，默认为0
+  USERNAME: "yingkai" #开发板登录用户名
+  PASSWORD: "1" #开发板登录密码
+  VIDEO_FILE_PATH: "saved_videos/" #该目录位于根目录，用户需要事先创建好
+  FILE_SYSTEM: 2 # NVIDIA TX2为0, NVIDIA AGX XAVIER为1, 一般ubuntu系统为2,此设置用于获取磁盘空间
